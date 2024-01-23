@@ -138,7 +138,7 @@ public class GiaodienchinhView extends JFrame {
 				String[] row = { id, hovaten, ngaysinh, diachi, hocphi, gioitinh, tinhtrangnophocphi };
 				dtm.addRow(row);
 			}
-			int[] columnWidths = { 10, 150, 100, 300, 100, 80, 10 };
+			int[] columnWidths = { 10, 150, 100, 300, 100, 80, 80 };
 			for (int i = 0; i < cols; i++) {
 				jTable.getColumnModel().getColumn(i).setPreferredWidth(columnWidths[i]);
 			}
@@ -200,7 +200,7 @@ public class GiaodienchinhView extends JFrame {
 						String[] row = { id, hovaten, ngaysinh, diachi, hocphi, gioitinh, tinhtrangnophocphi };
 						dtm.addRow(row);
 					}
-					int[] columnWidths = { 10, 150, 100, 300, 100, 80, 10 };
+					int[] columnWidths = { 10, 150, 100, 300, 100, 80, 80 };
 					for (int i = 0; i < cols; i++) {
 						jTable.getColumnModel().getColumn(i).setPreferredWidth(columnWidths[i]);
 					}
