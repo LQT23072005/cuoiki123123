@@ -86,6 +86,11 @@ public class tiemkiemView extends JFrame {
 
 						String[] row = { id, hovaten, ngaysinh, diachi, hocphi, gioitinh, tinhTrangNopHocPhi };
 						dtmm.addRow(row);
+						
+						 int[] columnWidths = { 150, 200, 100, 300, 100, 80, 80 };
+		                    for (int i = 0; i < cols; i++) {
+		                        jTable_bang.getColumnModel().getColumn(i).setPreferredWidth(columnWidths[i]);
+		                    }
 					}
 					st.close();
 					cn.close();
