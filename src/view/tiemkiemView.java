@@ -82,7 +82,7 @@ public class tiemkiemView extends JFrame {
 						diachi = rs.getString(4);
 						hocphi = rs.getString(5);
 						gioitinh = rs.getString(6);
-						tinhTrangNopHocPhi = rs.getString(6);
+						tinhTrangNopHocPhi = rs.getString(7);
 
 						String[] row = { id, hovaten, ngaysinh, diachi, hocphi, gioitinh, tinhTrangNopHocPhi };
 						dtmm.addRow(row);
