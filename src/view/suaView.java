@@ -30,7 +30,7 @@ public class suaView extends JFrame {
 		this.setLocationRelativeTo(null);
 		this.setLocationRelativeTo(null);
 
-		Font font_tren = new Font("Arial", Font.BOLD, 40);
+		Font font_tren = new Font("Arial", Font.BOLD, 35);
 		Font font_giua = new Font("Arial", Font.BOLD, 20);
 
 		JPanel jPanel_tren = new JPanel();
@@ -96,7 +96,7 @@ public class suaView extends JFrame {
 		jPanel_giua.add(jLabel_tinhtrangnophocphi);
 		jPanel_giua.add(jComboBox_tinhTrangNopHocPhi);
 
-		jPanel_giua.setLayout(new GridLayout(8, 2, 2, 2));
+		jPanel_giua.setLayout(new GridLayout(8, 2, 5, 5));
 
 		jPanel_duoi.add(jButton_sua);
 
